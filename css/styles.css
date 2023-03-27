@@ -132,6 +132,14 @@ img {
   padding-top: 188px;
   padding-bottom: 188px;
 }
+.div-hero {
+  background-image: linear-gradient (rgba(46, 47, 66, 0.7)),
+    url("../images/people-office-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left center;
+}
+
 .section-name {
   font-weight: 700;
   font-size: 56px;
