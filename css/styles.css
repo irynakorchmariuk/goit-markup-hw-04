@@ -139,7 +139,7 @@ img {
     url("../images/people-office-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: left center;
+  background-position: center;
 }
 
 .section-name {
@@ -217,6 +217,15 @@ img {
 .section-subtitle {
   margin-bottom: 8px;
 }
+.background-benefit {
+  height: 112px;
+  background: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 /*Third section What are we doing*/
 .work-examples {
@@ -258,6 +267,7 @@ img {
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 /*==========================FOURTH SECTION OUR TEAM====================== */
 .section-list-team {
@@ -282,6 +292,67 @@ img {
 .name-vacancy-employee {
   padding-top: 32px;
   padding-bottom: 32px;
+}
+.employee-soc-lict {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.emploee-soc-item {
+  width: 40px;
+  height: 40px;
+}
+.soc-icon {
+  fill: #f4f4fd;
+}
+.emploee-soc-link {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.emploee-soc-link:hover,
+.emploee-soc-link:focus {
+  background-color: #31d0aa;
+}
+/*=====================SECTION CUSTOMERS===================================*/
+.caption-customers {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-top: 120px;
+  margin-bottom: 72px;
+}
+
+.roster-li:not(:nth-child(6n)) {
+  margin-right: 24px;
+}
+.roster-li {
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 168px;
+  height: 88px;
+}
+.icons-svg {
+  width: 104px;
+  height: 56px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+.icons-customers {
+  display: flex;
+  margin-bottom: 120px;
+  justify-content: center;
 }
 
 /*=====================SECTION HERO SECOND PAGE=========================*/
@@ -319,12 +390,10 @@ img {
 .btn-portfolio:not(:last-child) {
   margin-right: 24px;
 }
-/*.btn-portfolio {
-  padding-left: 24px;
-  padding-right: 24px;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  }*/
+.pictures-of-works {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
 
 /*================Subheadings of the second section====================*/
 .nav-types-work {
@@ -393,4 +462,46 @@ img {
   letter-spacing: 0.02em;
   color: #e7e9fc;
   margin-top: 17.5px;
+  width: 264px;
+  height: 72px;
+}
+
+.div-soc-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 120px;
+}
+.soc-media-headline {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+  fill-opacity: 0;
+  line-height: 24px;
+  margin-bottom: 16px;
+  margin-left: 540px;
+  margin-right: 804px;
+}
+.soc-list-footer {
+  display: flex;
+  justify-content: center;
+
+  gap: 16px;
+}
+
+.soc-icon-footer {
+  width: 40px;
+  height: 40px;
+}
+.soc-link-footer {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
