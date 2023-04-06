@@ -487,8 +487,7 @@ img {
   color: var(--color-white);
   line-height: 24px;
   margin-bottom: 16px;
-  margin-left: 540px;
-  margin-right: 804px;
+  padding-right: 120px;
 }
 .soc-list-footer {
   display: flex;
