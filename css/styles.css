@@ -335,6 +335,7 @@ img {
 .roster-li:not(:nth-child(6n)) {
   margin-right: 24px;
 }
+/*Знайти як переробити правильно(*/
 .roster-li {
   border: 1px solid #8e8f99;
   border-radius: 4px;
@@ -354,6 +355,10 @@ img {
   display: flex;
   margin-bottom: 120px;
   justify-content: center;
+}
+.reference-сustomers:hover,
+.reference-сustomers:focus {
+  border: 1px solid #404bbf;
 }
 .reference-сustomers:hover .icons-svg {
   fill: #404bbf;
