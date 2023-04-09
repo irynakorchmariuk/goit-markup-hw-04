@@ -5,7 +5,6 @@
   --color-white: #ffffff;
   --color-blue: #404bbf;
 }
-
 .list {
   list-style: none;
 }
@@ -56,6 +55,8 @@ img {
   padding-top: 25.5px;
   padding-bottom: 25.5px;
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .page-header-container {
   display: flex;
@@ -140,6 +141,8 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  max-width: 1440px;
+  margin: auto;
 }
 
 .section-name {
@@ -172,6 +175,7 @@ img {
   padding-bottom: 15px;
   padding-left: 32px;
   padding-right: 32px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .modal-btn:hover,
 .modal-btn:focus {
@@ -316,9 +320,13 @@ img {
 }
 .emploee-soc-link:hover,
 .emploee-soc-link:focus {
-  background-color: #31d0aa;
+  background-color: var(--color-blue);
 }
 /*=====================SECTION CUSTOMERS===================================*/
+.customers {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .caption-customers {
   font-family: Roboto;
   font-style: normal;
@@ -328,7 +336,6 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-top: 120px;
   margin-bottom: 72px;
 }
 
@@ -337,23 +344,17 @@ img {
 }
 /*Знайти як переробити правильно(*/
 .roster-li {
-  border: 1px solid #8e8f99;
-  border-radius: 4px;
   width: 168px;
   height: 88px;
 }
 .icons-svg {
   width: 104px;
   height: 56px;
-  margin-top: 16px;
-  margin-bottom: 16px;
-  margin-left: 32px;
-  margin-right: 32px;
+
   fill: #afb1b8;
 }
 .icons-customers {
   display: flex;
-  margin-bottom: 120px;
   justify-content: center;
 }
 .reference-сustomers:hover,
@@ -361,7 +362,15 @@ img {
   border: 1px solid #404bbf;
 }
 .reference-сustomers:hover .icons-svg {
-  fill: #404bbf;
+  fill: var(--color-blue);
+}
+.reference-сustomers {
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 /*=====================SECTION HERO SECOND PAGE=========================*/
@@ -384,6 +393,8 @@ img {
   color: var(--color-white);
   background-color: var(--color-blue);
   border-color: transparent;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .filter-btn {
   padding-left: 24px;
@@ -399,7 +410,11 @@ img {
 .btn-portfolio:not(:last-child) {
   margin-right: 24px;
 }
-.pictures-of-works {
+.links-img-works {
+  display: block;
+}
+.links-img-works:hover,
+.links-img-works:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
@@ -444,8 +459,6 @@ img {
 .section-portfolio {
   padding-top: 96px;
   padding-bottom: 120px;
-  padding-left: 156px;
-  padding-right: 156px;
 }
 
 /*FOOTER*/
@@ -479,27 +492,20 @@ img {
 }
 
 .div-soc-footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   margin-left: 120px;
 }
 .soc-media-headline {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   color: var(--color-white);
-  line-height: 24px;
+  line-height: 1.5;
   margin-bottom: 16px;
-  padding-right: 120px;
 }
 .soc-list-footer {
   display: flex;
   justify-content: center;
 
   gap: 16px;
-  margin-top: 16px;
 }
 
 .soc-icon-footer {
@@ -515,4 +521,8 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.soc-link-footer:hover,
+.soc-link-footer:focus {
+  background-color: #31d0aa;
 }
