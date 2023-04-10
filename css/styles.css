@@ -351,7 +351,7 @@ img {
   width: 104px;
   height: 56px;
 
-  fill: #afb1b8;
+  fill: #8e8f99;
 }
 .icons-customers {
   display: flex;
@@ -361,9 +361,14 @@ img {
 .reference-сustomers:focus {
   border: 1px solid #404bbf;
 }
-.reference-сustomers:hover .icons-svg {
+.reference-сustomers:focus {
+  outline: none;
+}
+.reference-сustomers:hover .icons-svg,
+.reference-сustomers:focus .icons-svg {
   fill: var(--color-blue);
 }
+
 .reference-сustomers {
   border: 1px solid #8e8f99;
   border-radius: 4px;
