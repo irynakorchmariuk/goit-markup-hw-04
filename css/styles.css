@@ -135,7 +135,7 @@ img {
   background-image: linear-gradient(
       to right,
       rgba(46, 47, 66, 0.7),
-      rgb(46, 47, 66, 0.7)
+      rgba(46, 47, 66, 0.7)
     ),
     url("../images/people-office-1.jpg");
   background-repeat: no-repeat;
