@@ -355,6 +355,7 @@ img {
 .icons-customers {
   display: flex;
   justify-content: center;
+  gap: 24px;
 }
 .reference-сustomers:hover,
 .reference-сustomers:focus {
