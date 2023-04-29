@@ -510,6 +510,7 @@ img {
   color: var(--color-white);
   line-height: 1.5;
   margin-bottom: 16px;
+  letter-spacing: 0.02em;
 }
 .soc-list-footer {
   display: flex;
