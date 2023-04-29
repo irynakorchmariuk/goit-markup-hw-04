@@ -339,10 +339,6 @@ img {
   margin-bottom: 72px;
 }
 
-.roster-li:not(:nth-child(6n)) {
-  margin-right: 24px;
-}
-/*Знайти як переробити правильно(*/
 .roster-li {
   width: 168px;
   height: 88px;
@@ -352,26 +348,27 @@ img {
   width: 104px;
   height: 56px;
 
-  fill: #8e8f99;
+  fill: currentColor;
 }
 .icons-customers {
   display: flex;
   justify-content: center;
   gap: 24px;
 }
-.reference-сustomers:hover,
-.reference-сustomers:focus {
+.reference-customers:hover,
+.reference-customers:focus {
   border: 1px solid #404bbf;
+  color: #404bbf;
 }
-.reference-сustomers:focus {
+.reference-customers:focus {
   outline: none;
 }
-.reference-сustomers:hover .icons-svg,
-.reference-сustomers:focus .icons-svg {
+.reference-customers:hover .icons-svg,
+.reference-customers:focus .icons-svg {
   fill: var(--color-blue);
 }
 
-.reference-сustomers {
+.reference-customers {
   border: 1px solid var(--color-grey);
   color: var(--color-grey);
   border-radius: 4px;
