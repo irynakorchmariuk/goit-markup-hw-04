@@ -5,6 +5,7 @@
   --color-white: #ffffff;
   --color-blue: #404bbf;
   --color-grey: #8e8f99;
+  --white-grey: #f4f4fd;
 }
 .list {
   list-style: none;
@@ -469,9 +470,16 @@ img {
 /*FOOTER*/
 .cointeiner-flex {
   display: flex;
+  align-items: baseline;
 }
 .footer {
   background-color: var(--color-menu);
+}
+.first-div-footer {
+  margin-right: 120px;
+}
+.div-soc-footer {
+  margin-left: 120px;
 }
 .footer-part-word {
   font-family: "Raleway", sans-serif;
@@ -496,9 +504,6 @@ img {
   height: 72px;
 }
 
-.div-soc-footer {
-  margin-left: 120px;
-}
 .soc-media-headline {
   font-weight: 500;
   font-size: 16px;
@@ -512,7 +517,9 @@ img {
 
   gap: 16px;
 }
-
+.footer-items-soc {
+  fill: var(--white-grey);
+}
 .soc-icon-footer {
   width: 40px;
   height: 40px;
