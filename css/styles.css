@@ -4,6 +4,7 @@
   --color-nav-links: #434455;
   --color-white: #ffffff;
   --color-blue: #404bbf;
+  --color-grey: #8e8f99;
 }
 .list {
   list-style: none;
@@ -345,6 +346,7 @@ img {
 .roster-li {
   width: 168px;
   height: 88px;
+  flex-basis: calc((100% - 120px) / 6);
 }
 .icons-svg {
   width: 104px;
@@ -370,7 +372,8 @@ img {
 }
 
 .reference-сustomers {
-  border: 1px solid #8e8f99;
+  border: 1px solid var(--color-grey);
+  color: var(--color-grey);
   border-radius: 4px;
   display: flex;
   justify-content: center;
