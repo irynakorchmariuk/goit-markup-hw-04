@@ -346,7 +346,7 @@ img {
 .roster-li {
   width: 168px;
   height: 88px;
-  flex-basis: calc((100% - 120px) / 6);
+  width: calc((100% - 120px) / 6);
 }
 .icons-svg {
   width: 104px;
